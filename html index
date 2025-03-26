@@ -1,0 +1,79 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoanUSA - Financial Freedom Awaits</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo-container">
+            <svg class="logo" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="#1a3a6d"/>
+                <path d="M30 30 L70 30 L70 70 L30 70 Z" fill="#4CAF50"/>
+                <text x="50" y="60" font-size="40" fill="#FFD700" text-anchor="middle">$</text>
+            </svg>
+            <h1>LoanUSA</h1>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="eligibility.html">Eligibility</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">☰</div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Up to $200k Loans - No Credit Check</h2>
+            <p>Fast approval, flexible terms, competitive rates</p>
+            <button class="cta-btn">Apply Now</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-card">
+            <h3>Personal Loans</h3>
+            <p>Up to $50,000 for any purpose</p>
+        </div>
+        <div class="feature-card">
+            <h3>Mortgage Loans</h3>
+            <p>Home financing made simple</p>
+        </div>
+        <div class="feature-card">
+            <h3>Auto Loans</h3>
+            <p>Drive your dream car today</p>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="testimonial active">
+            <p>"Quick and easy process!" ★★★★★</p>
+        </div>
+        <div class="testimonial">
+            <p>"Best rates in town." ★★★★★</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        <p>© 2023 LoanUSA. All rights reserved.</p>
+    </footer>
+</body>
+</html>
